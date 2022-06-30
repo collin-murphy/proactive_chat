@@ -1,7 +1,4 @@
-/*
-Source: https://docs.microsoft.com/en-us/dynamics365/customer-service/start-proactive-chat
-Code to show proactive chat invite after visitor has spend given time on the webpage
-*/
+//https://docs.microsoft.com/en-us/dynamics365/customer-service/start-proactive-chat
 
 // Wait for Chat widget to load completely
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent() {
