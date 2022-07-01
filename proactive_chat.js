@@ -2,7 +2,7 @@
 
 // Wait for Chat widget to load completely
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent() {
-    var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 0;//time to wait before Offering proactive chat to webpage visitor
+    var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 5000;//time to wait before Offering proactive chat to webpage visitor
     // Setting context variables
     Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider() {
         return {
@@ -14,6 +14,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent() {
 
     //Display proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
     setTimeout(function () {
-        Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({ message: "This is the proactive chat example text for the Unofficial transcript evaluation." }, false)
+        Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({ message: "Join this chat and type \"Unofficial Transcript Evaluation\" to see how many of your credits will transfer!" }, false)
     }, timeToWaitBeforeOfferingProactiveChatInMilliseconds);
 });
