@@ -2,7 +2,7 @@
 
 // Wait for Chat widget to load completely
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent() {
-    var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 5000;//time to wait before Offering proactive chat to webpage visitor
+    var timeToWaitBeforeOfferingProactiveChatInMilliseconds = 0;//time to wait before Offering proactive chat to webpage visitor
     // Setting context variables
     Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider() {
         return {
