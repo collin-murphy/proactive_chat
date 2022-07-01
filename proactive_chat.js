@@ -14,6 +14,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent() {
 
     //Display proactive chat invite after 'timeToWaitBeforeOfferingProactiveChatInMilliseconds' milliseconds
     setTimeout(function () {
-        Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({ message: "This is the proactive chat example text." }, false)
+        Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat({ message: "This is the proactive chat example text for the Unofficial transcript evaluation." }, false)
     }, timeToWaitBeforeOfferingProactiveChatInMilliseconds);
 });
