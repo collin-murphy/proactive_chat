@@ -3,7 +3,7 @@ This is a script that allows websites to have proactive chatbots though Dynamics
 
 **NOTE:** This script will only work if the Omnichannel workstream has the proactive chat feature enabled. This can be toggled in the Omnichannel Admin Center under "Workstreams".
 
-# Usage with Test webpage
+# Usage with test webpage
 If you want a quick example of how this script works, use the [Github Pages link for this repo](https://collin-murphy.github.io/proactive_chat/).
 
 # Usage on the Transfer Credit website
