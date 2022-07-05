@@ -1,9 +1,10 @@
-# proactive_chat
+# Proactive Dynamics 365/Omnichannel Chat
 This is a script that allows websites to have proactive chatbots though Dynamics 365/Omnichannel.
 
-# Usage
+# Usage with Test webpage
 If you want a quick example of how this script works, use the [Github Pages link for this repo](https://collin-murphy.github.io/proactive_chat/).
 
+# Usage on the Transfer Credit website
 If you want to see how this would run on the BYU Pathway Website:
 1. Download and install the [Tampermonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), then go to
 2. Download the [Transfer Evaluation Tampermonkey Script](https://raw.githubusercontent.com/collin-murphy/proactive_chat/transfer/tampermonkey.js)
