@@ -1,5 +1,6 @@
 # Proactive Dynamics 365/Omnichannel Chat
-This is a script that allows websites to have proactive chatbots though Dynamics 365/Omnichannel.
+This is a script that allows websites to have proactive chatbots though Dynamics 365/Omnichannel. 
+**NOTE**: This script will only work if the Omnichannel workstream has the proactive chat feature enabled. This can be toggled in the Omnichannel Admin Center under "Workstreams"
 
 # Usage with Test webpage
 If you want a quick example of how this script works, use the [Github Pages link for this repo](https://collin-murphy.github.io/proactive_chat/).
