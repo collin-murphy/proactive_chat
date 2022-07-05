@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Transfer Evaluation Proactive Chat
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  Proactive chat that shows up on the BYU-Pathway transfer credit website
-// @author       You
+// @author       github.com/collin-murphy/
 // @match        https://www.byupathway.org/admissions/transfer-credits
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
