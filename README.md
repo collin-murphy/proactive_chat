@@ -9,7 +9,7 @@ If you want a quick example of how this script works, use the [Github Pages link
 # Usage on the Transfer Credit website
 If you want to see how this would run on the BYU Pathway Website:
 1. Download and install the [Tampermonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-2. Download the [Transfer Evaluation Tampermonkey Script](https://raw.githubusercontent.com/collin-murphy/proactive_chat/transfer/tampermonkey.js)
+2. Download the [Transfer Evaluation Tampermonkey Script](https://raw.githubusercontent.com/collin-murphy/proactive_chat/transfer/tampermonkey.js) (download the file from the repo or save this webpage as a ".js" file)
 3. Go to "Utilities" in the Tampermonkey extension webpage and use "Import from file" to import the script from step 2
 4. Navigate to the [Transfer Credits Webpage](https://www.byupathway.org/admissions/transfer-credits)
 5. Click on the Tampermonkey extension and make sure the script is enabled
